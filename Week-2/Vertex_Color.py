@@ -16,7 +16,7 @@ def greedyColoring(adj, V):
     result[0] = 0;
  
  
-    # A temporary array to store the available colors.
+    #A temporary array to store the available colors.
     # True value of available[cr] would mean that the
     # color cr is assigned to one of its adjacent vertices
     available = [False] * V
